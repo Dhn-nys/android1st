@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/segitiga"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/NordthemeBlack1"
+        android:text="MENGHITUNG LUAS SEGITIGA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/rumus"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/segitiga"
+        android:text="Rumus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignBaseline="@id/kotakalas"
+        android:layout_alignBottom="@+id/kotakalas"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/alas"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rumus"
+        android:text="ALAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/kotakalas"
+        android:layout_below="@id/rumus"
+        android:ems="10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:hint="Masukan Alas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        /*copy*/
+    <TextView
+        android:layout_alignBaseline="@id/kotaktinggi"
+        android:layout_alignBottom="@+id/kotaktinggi"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tinggi"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/alas"
+        android:text="Tinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/kotaktinggi"
+        android:layout_below="@id/kotakalas"
+        android:ems="10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:hint="Masukan Tinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/hitung"
+        android:textColor="@color/NordthemeFrost3"
+        android:textSize="18dp"
+        android:text="Hitung"
+        android:layout_below="@+id/tinggi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:text="Hasil : "
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hitung"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

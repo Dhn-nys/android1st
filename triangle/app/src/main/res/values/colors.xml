@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="NordthemeBlack1">#2E3440</color>
+    <color name="NordthemeBlack2">#3B4252</color>
+    <color name="NordthemeBlack3">#434C5E</color>
+    <color name="NordthemeBlack4">#4C566A</color>
+    <color name="NordthemeWhite1">#D8DEE9</color>
+    <color name="NordthemeWhite2">#E5E9F0</color>
+    <color name="NordthemeWhite3">#ECEFF4</color>
+    <color name="NordthemeFrost1">#2E3440</color>
+    <color name="NordthemeFrost2">#3B4252</color>
+    <color name="NordthemeFrost3">#434C5E</color>
+    <color name="NordthemeFrost4">#4C566A</color>
+    <color name="NordthemeAurora1">#2E3440</color>
+    <color name="NordthemeAurora2">#3B4252</color>
+    <color name="NordthemeAurora3">#434C5E</color>
+    <color name="NordthemeAurora4">#4C566A</color>
+    <color name="NordthemeAurora5">#D8DEE9</color>
+</resources>
